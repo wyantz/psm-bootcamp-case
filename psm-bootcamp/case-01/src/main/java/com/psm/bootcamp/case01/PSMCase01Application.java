@@ -9,6 +9,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 public class PSMCase01Application {
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(PSMCase01Application.class, args);
 	}
 
