@@ -12,7 +12,6 @@ import com.psm.bootcamp.case02.entity.CustomerProfile;
  * @author Awiyanto Ajisasongko
  *
  */
-@Repository
 public interface CustomerProfileRepository extends JpaRepository<CustomerProfile, Integer> {
 
 }
