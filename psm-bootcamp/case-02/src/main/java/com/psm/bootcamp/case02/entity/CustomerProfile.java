@@ -8,6 +8,7 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import groovy.transform.builder.Builder;
 import lombok.Data;
 
 /**
@@ -15,6 +16,7 @@ import lombok.Data;
  *
  */
 @Data
+@Builder
 @Entity
 @Table(name="T_CUST")
 public class CustomerProfile {
@@ -29,5 +31,5 @@ public class CustomerProfile {
 	private String alamat;
 
 	@Column(name="CSBUSSCAT")
-	private String kategoriBisnis;
+	private String kategoriBisnis = "UMUM";
 }
