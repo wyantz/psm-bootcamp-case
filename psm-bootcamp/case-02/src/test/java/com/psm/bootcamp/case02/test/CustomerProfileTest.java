@@ -20,7 +20,7 @@ public class CustomerProfileTest {
 	
 	@Test
 	public void hitungLuasSegitiga() {
-		double luas = HitungLuasService.hitungLuasSegitiga(10,10);
+		double luas = HitungLuasService.hitungLuasSegitiga(10,-10);
 		Assert.assertTrue(luas>0);
 		Assert.assertEquals(new Double(50), new Double(luas));		
 	}
